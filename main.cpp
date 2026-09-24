@@ -6,7 +6,7 @@
  * Description: Lab work comparing array and linked list implementations using
  * encapsulation and inheritance. List.h class contains alternate formating
  * options commented out to test and view memory managements and leaks. Header
- * files are stored in sources file for added organization.
+ * files are stored in sources file for organization.
  ******************************************************************************/
 #include <iostream>
 #include "sources/List.h"

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-//reordered class layout - private and public sections and constructors/deconstructors for readability
+//reordered class layout - private and public sections and constructors/destructors for readability
 //(private first then public)
 
 class Data {
