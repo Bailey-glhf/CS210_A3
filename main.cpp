@@ -1,3 +1,12 @@
+/*******************************************************************************
+* CS210-16 – Fall 2026
+ * File name: CS210_A3
+ * Developer: Emily Bailey
+ * 09/23/26
+ * Description: Lab work comparing array and linked list implementations using
+ * encapsulation and inheritance. List.h class contains alternate formating
+ * options commented out to test and view memory managements and leaks.
+ ******************************************************************************/
 #include <iostream>
 #include "sources/List.h"
 #include "sources/Data.h"
