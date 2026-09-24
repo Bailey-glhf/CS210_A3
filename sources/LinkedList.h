@@ -3,6 +3,9 @@
 #include "List.h"
 #include "Node.h"
 
+//reordered class layout - private and public sections and constructors/deconstructors for readability
+//(private first then public, constructors and destructors before any other functions)
+
 template <typename T>
 class LinkedList : public List<T> {
     private:

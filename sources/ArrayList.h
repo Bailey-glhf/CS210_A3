@@ -2,6 +2,9 @@
 #include <iostream>
 #include "List.h"
 
+//reordered class layout - private and public sections and constructors/deconstructors for readability
+//(private first then public, constructors and destructors before any other functions)
+
 template <typename T>
 class ArrayList : public List <T> {                             //pointer based arraylist
     private:
