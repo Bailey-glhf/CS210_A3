@@ -37,7 +37,9 @@ Reflection Questions
    changing a single line there. What two mechanisms, by name, made that possible?
 
 
-    4) Encapsulation and inheritance make this possible. 
+    4) Encapsulation and inheritance make this possible. The inheritence is done with the
+    "public List <T>" after the class start for ArrayList and LinkedList, and the encapsulation
+    is done with our private variables.
 
 
 5. Pick one keyword from the Key Terms glossary that you either had to add today or wouldn’t have
@@ -45,3 +47,9 @@ Reflection Questions
    your own words and without copying the guide’s wording, the smallest example you can think
    of where leaving it out would cause a real problem.
 
+
+    5) The keyword that I had trouble with on this lab was virtual. In the List class testing the program
+    when testing the alternate return, I couldn't compile while the virtual was there and I still had
+    overrides in the ArrayList destructor. With virtual in this case caused a mismatch, but with the original
+    return statement if I had forgotten the virtual I also wouldn't have been able to compile since I'd 
+    need the virtual and override (in deconstructor) to ensure they can prevent the heap memory leaks.

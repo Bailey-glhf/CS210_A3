@@ -4,8 +4,7 @@
 template <typename T>
 class List {
     public:
-    virtual ~List() = default;
-    //~List() = default; - add this line when testing alternate makeList() return
+    virtual ~List() = default;          //remove the virtual when testing alternate makeList() return
 
     virtual void addFront(T* data) = 0;
     virtual void deleteFront() = 0;
